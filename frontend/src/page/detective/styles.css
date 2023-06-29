@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#input-container {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#execute-button {
+  margin-left: 20px;
+}
+
+#result-container {
+  text-align: center;
+}
+
+#result-container h2 {
+  margin-top: 0;
+}
+
+#result {
+  font-weight: bold;
+}
+
+#result.error {
+  color: red;
+}
